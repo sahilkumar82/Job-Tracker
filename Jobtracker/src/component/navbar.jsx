@@ -1,20 +1,24 @@
 function Nav() {
-
     return (
-        <>
-            <div className="navbar">
-                <div className="nav-container">
-                    <div className="nav-items">
-                        <input type="text" placeholder="Search application, companies, roles..." />
-                    </div>
-                    <div className="logo">
-                        <span className="logo-circle">Sk</span>
-                        <div className="logo-items">Sahil kumar</div>
-                    </div>
+        <nav className="navbar">
+
+            <div className="nav-items">
+                <input
+                    type="text"
+                    placeholder="Search application, companies, roles..."
+                />
+            </div>
+
+            <div className="logo">
+                <span className="logo-circle">Sk</span>
+
+                <div className="logo-items">
+                    Sahil Kumar
                 </div>
             </div>
-        </>
-    )
+
+        </nav>
+    );
 }
 
-export default Nav
+export default Nav;
