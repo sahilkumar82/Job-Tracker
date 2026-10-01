@@ -3,6 +3,7 @@ import './App.css'
 import Nav from "./component/navbar";
 import Side from "./component/sidebar";
 import Dash from "./pages/Dashboard";
+import Appli from './pages/Application';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <div className="main-area">
         <Nav />
         <main className="page-content">
-          <Dash />
+          {/* <Dash /> */}
+          <Appli/>
         </main>
       </div>
     </div>

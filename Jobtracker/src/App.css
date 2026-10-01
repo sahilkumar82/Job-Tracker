@@ -264,7 +264,9 @@ OVERVIEW
 }
 
 .overview-box-left,
-.overview-box-right {
+.overview-box-right,
+.left-appli-box,
+.right-appli-box {
     background: white;
     min-height: 300px;
     border-radius: 12px;
@@ -273,4 +275,37 @@ OVERVIEW
     font-size: 16px;
     font-weight: 600;
     color: #222;
+}
+.appli-hero span{
+    color: blue;
+    font-weight: 600;
+}
+.appli-hero h1{
+    margin: 5px 0px 20px 0px;
+}
+.appli-box{
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.left-appli-box input{
+    display: block;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+    padding-left: 10px;
+}
+form{
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form button{
+    padding: 10px 0px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: 600;
 }
