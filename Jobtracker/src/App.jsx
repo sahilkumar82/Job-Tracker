@@ -4,6 +4,7 @@ import Nav from "./component/navbar";
 import Side from "./component/sidebar";
 import Dash from "./pages/Dashboard";
 import Appli from './pages/Application';
+import Interview from './pages/Interview';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <div className="main-area">
         <Nav />
         <main className="page-content">
-          {/* <Dash /> */}
-          <Appli/>
+          <Dash />
+          <Appli />
+          <Interview />
         </main>
       </div>
     </div>

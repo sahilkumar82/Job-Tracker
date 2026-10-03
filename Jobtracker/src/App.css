@@ -276,31 +276,39 @@ OVERVIEW
     font-weight: 600;
     color: #222;
 }
-.appli-hero span{
+
+.appli-hero span,
+.interview span {
     color: blue;
     font-weight: 600;
 }
-.appli-hero h1{
+
+.appli-hero h1,
+.interview h1 {
     margin: 5px 0px 20px 0px;
 }
-.appli-box{
-     display: grid;
+
+.appli-box {
+    display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
 }
-.left-appli-box input{
+
+.left-appli-box input {
     display: block;
     height: 35px;
     border-radius: 5px;
     border: 1px solid #eeeeee;
     padding-left: 10px;
 }
-form{
-        display: flex;
+
+form {
+    display: flex;
     flex-direction: column;
     gap: 20px;
 }
-form button{
+
+form button {
     padding: 10px 0px;
     border: 1px solid blue;
     border-radius: 10px;
@@ -308,4 +316,29 @@ form button{
     color: white;
     font-size: large;
     font-weight: 600;
+}
+
+.interview-first-box {
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    min-height: 250px;
+    border-radius: 10px;
+}
+
+.interview-first-box>p {
+    margin: 15px 0px;
+}
+
+.interview-second-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.interview-detail {
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    padding: 20px;
 }
