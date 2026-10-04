@@ -9,17 +9,32 @@ function Appli() {
                 <div className="left-appli-box">
                     <form action="">
                         <h2>Add Application</h2>
-                        <input type="text" placeholder="Company Name"/>
-                        <input type="text" placeholder="Job Role"/>
-                        <input type="text" placeholder="Location"/>
+                        <input type="text" placeholder="Company Name" />
+                        <input type="text" placeholder="Job Role" />
+                        <input type="text" placeholder="Location" />
                         <input type="date" />
-                        <input type="Number" placeholder="Salary"/>
-                        <input type="text" placeholder="Applied"/>
-                        <input type="text" placeholder="Job URL"/>
+                        <input type="Number" placeholder="Salary" />
+                        <input type="text" placeholder="Applied" />
+                        <input type="text" placeholder="Job URL" />
                         <button type="submit">Add Application</button>
                     </form>
                 </div>
-                <div className="right-appli-box"></div>
+                <div className="right-appli-box">
+                    <div className="applications">
+                        <div className="appli-first-body">
+                            <h5>google</h5>
+                            <span>frontend</span>
+                            <p>banglore <span>63363664</span></p>
+
+                        </div>
+                        <div className="appli-second-body">
+                            <i>rff</i>
+                            <i>rff</i>
+                            <i>rff</i>
+
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </>

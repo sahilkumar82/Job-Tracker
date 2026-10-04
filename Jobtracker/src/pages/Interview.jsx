@@ -10,13 +10,11 @@ function Interview() {
                     </p>
                     <div className="interview-second-box">
                         <div className="interview-detail">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div className="interview-detail">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div className="interview-detail">
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h5>company name</h5>
+                            <span>position</span>
+                            <p>date</p>
+                            <p>location</p>
+                            <p>status</p>
                         </div>
                     </div>
                 </div>

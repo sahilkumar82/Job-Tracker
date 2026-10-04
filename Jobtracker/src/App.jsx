@@ -5,6 +5,7 @@ import Side from "./component/sidebar";
 import Dash from "./pages/Dashboard";
 import Appli from './pages/Application';
 import Interview from './pages/Interview';
+import Anal from './pages/Analytics';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Dash />
           <Appli />
           <Interview />
+          <Anal />
         </main>
       </div>
     </div>

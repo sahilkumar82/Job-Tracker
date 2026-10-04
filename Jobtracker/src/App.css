@@ -214,14 +214,16 @@ HERO
 CARDS
 ========================= */
 
-.card {
+.card,
+.analytics-progress-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 18px;
     margin-bottom: 25px;
 }
 
-.card-box {
+.card-box,
+.analytics-progress-card {
     background: white;
     border-radius: 12px;
     padding: 20px;
@@ -230,7 +232,8 @@ CARDS
     transition: 0.2s ease;
 }
 
-.card-box:hover {
+.card-box:hover,
+.analytics-progress-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
 }
@@ -266,7 +269,10 @@ OVERVIEW
 .overview-box-left,
 .overview-box-right,
 .left-appli-box,
-.right-appli-box {
+.right-appli-box,
+.analytics-box,
+.setting-first-box,
+.setting-second-box {
     background: white;
     min-height: 300px;
     border-radius: 12px;
@@ -278,13 +284,17 @@ OVERVIEW
 }
 
 .appli-hero span,
-.interview span {
+.interview span,
+.analytics span,
+.setting span {
     color: blue;
     font-weight: 600;
 }
 
 .appli-hero h1,
-.interview h1 {
+.interview h1,
+.analytics h1,
+.setting h1 {
     margin: 5px 0px 20px 0px;
 }
 
@@ -317,7 +327,18 @@ form button {
     font-size: large;
     font-weight: 600;
 }
-
+.applications{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.appli-first-body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .interview-first-box {
     padding: 20px;
     border: 1px solid #eeeeee;
@@ -341,4 +362,7 @@ form button {
     border: 1px solid #eeeeee;
     border-radius: 10px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

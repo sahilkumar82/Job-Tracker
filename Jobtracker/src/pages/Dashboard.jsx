@@ -18,10 +18,10 @@ function Dash() {
                             Total Applications
                         </div>
                         <div className="card-count">
-                            0
+                            <p>4</p>
                         </div>
                         <div className="card-days">
-                            This week
+                            <span>This week</span>
                         </div>
                     </div>
                 </div>
@@ -32,10 +32,10 @@ function Dash() {
                             Interviews
                         </div>
                         <div className="card-count">
-                            0
+                            <p>1</p>
                         </div>
                         <div className="card-days">
-                            This week
+                            <span>This week</span>
                         </div>
                     </div>
                 </div>
@@ -46,10 +46,10 @@ function Dash() {
                             Selected
                         </div>
                         <div className="card-count">
-                            0
+                            <p>1</p>
                         </div>
                         <div className="card-days">
-                            This month
+                            <span>This month</span>
                         </div>
                     </div>
                 </div>
@@ -60,10 +60,10 @@ function Dash() {
                             Rejected
                         </div>
                         <div className="card-count">
-                            0
+                            <p>1</p>
                         </div>
                         <div className="card-days">
-                            This month
+                            <span>This month</span>
                         </div>
                     </div>
                 </div>
