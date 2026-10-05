@@ -366,3 +366,10 @@ form button {
     flex-direction: column;
     gap: 10px;
 }
+
+.setting-first-box,
+.setting-second-box {
+    width: 50%;
+    margin-bottom: 20px;
+    min-height: 200px;
+}

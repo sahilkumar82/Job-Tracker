@@ -6,6 +6,7 @@ import Dash from "./pages/Dashboard";
 import Appli from './pages/Application';
 import Interview from './pages/Interview';
 import Anal from './pages/Analytics';
+import Sett from './pages/Setting';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Appli />
           <Interview />
           <Anal />
+          <Sett />
         </main>
       </div>
     </div>
