@@ -318,6 +318,14 @@ form {
     gap: 20px;
 }
 
+form select {
+    height: 35px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    color: gray;
+    padding-left: 10px;
+}
+
 form button {
     padding: 10px 0px;
     border: 1px solid blue;
@@ -327,18 +335,46 @@ form button {
     font-size: large;
     font-weight: 600;
 }
-.applications{
+
+.applications {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
 }
-.appli-first-body{
+
+.appli-first-body {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
+.appli-first-body h4 {
+    margin-bottom: 10px;
+}
+
+.appli-first-body p:nth-child(2) {
+    font-size: 13px;
+    color: #847d7d;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.appli-first-body p:last-child {
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+.appli-second-body i {
+    background: #00b7b7;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: blue;
+}
+
 .interview-first-box {
     padding: 20px;
     border: 1px solid #eeeeee;
