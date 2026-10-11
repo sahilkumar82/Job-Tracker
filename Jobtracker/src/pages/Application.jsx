@@ -41,6 +41,12 @@ function Appli() {
             status: "Applied",
             jobUrl: ""
         });
+
+    }
+    function handleDelete(id) {
+        setApplications(
+            applications.filter((app) => app.id !== id)
+        );
     }
 
     return (
@@ -156,10 +162,17 @@ function Appli() {
                                         </a>
                                     )}
                                 </div>
-
                                 <div className="appli-second-body">
                                     <i>{app.status}</i>
+
+                                    <button
+                                        type="button"
+                                        onClick={() => handleDelete(app.id)}
+                                    >
+                                        Delete
+                                    </button>
                                 </div>
+
                             </div>
                         ))
                     )}

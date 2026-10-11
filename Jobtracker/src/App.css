@@ -342,6 +342,7 @@ form button {
     justify-content: space-between;
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .appli-first-body {
